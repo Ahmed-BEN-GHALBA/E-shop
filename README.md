@@ -1,27 +1,30 @@
-# EShop
+#Angular E-commerce Website
+This is a minimalist e-commerce website built using Angular 16. It serves as a simple platform to showcase various products, handle user authentication, and manage different functionalities related to product listings.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+##Features
+###User Authentication: Includes a login and registration system utilizing Angular's authentication functionalities.
+###Product Display: Allows users to view a list of products along with their details.
+###Dashboard: Provides a dashboard for user activity and order management.
 
-## Development server
+##The project follows a structured approach with the following main folders:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+###components: Houses modules for various parts of the website (login, register, dashboard, product).
+###services: Manages functionalities such as user authentication and product handling.
+###guards: Implements authentication guards to control access to specific routes.
+###models: Contains data structures or interfaces (user, product) used throughout the application.
+###pages: Organizes sub-folders for different pages or views within the application.
+###shared: A folder for shared components, services, directives, and models used across multiple parts of the application for enhanced reusability.
 
-## Code scaffolding
+##Installation
+To run this project locally, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone the repository: git clone [[repository_url](https://github.com/Ahmed-BEN-GHALBA/E-shop.git)]
+Navigate to the project directory: cd angular-e-commerce
+Install dependencies: npm install
+Start the server: ng serve
+Open your browser and visit http://localhost:4200/ to view the application.
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or bug fixes.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
