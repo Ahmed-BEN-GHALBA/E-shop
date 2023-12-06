@@ -1,0 +1,30 @@
+<div class="container page">
+  <div class="row">
+    <div class="col-12">
+      <div class="row mt-3">
+        <div class="col" *ngFor="let item of products">
+          <div class="card container" style="width: 19rem;">
+              <img class="card-img-top" [src]="item.image" alt="image not found" routerLink="/productDetails">
+              <br>
+              <div class="card-body">
+                <h3 class="card-title text-center" routerLink="/productDetails">{{item.title}}</h3>
+                <hr>
+                <p class="text-center description-title">{{item.category}}</p>
+                <div class="description-area">
+                  <p class="card-text description">{{item.description}}</p>
+                </div>
+                <hr>
+                <!-- <p class="text-center description-title" routerLink="/productDetails">See More ..</p>
+                <hr> -->
+                <div class="d-flex justify-content-between">
+                    <p class="price mb-0">${{item.price}}</p>
+                    <button>Add To Cart</button>
+                </div>
+              </div>
+            </div>
+            <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

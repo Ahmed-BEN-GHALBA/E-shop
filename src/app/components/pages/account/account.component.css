@@ -1,0 +1,21 @@
+
+
+
+.menu{
+    /* background-color: rgb(237, 181, 181); */
+    border-right-color:rgb(255, 88, 88) ;
+    border-right-width:3px ;
+    border-right-style: solid;
+    height: 86vh;
+}
+li{
+    padding: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+li svg{
+    height: 25px;
+    width: 25px;
+    /* color: rgb(255, 88, 88) ; */
+}
