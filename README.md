@@ -22,7 +22,7 @@ This is a minimalist e-commerce website built using Angular 16. It serves as a s
 
 - To run this project locally, follow these steps:
 
-- Clone the repository: git clone [[repository_url](https://github.com/Ahmed-BEN-GHALBA/E-shop.git)]
+- Clone the repository: git clone [repository_url](https://github.com/Ahmed-BEN-GHALBA/E-shop.git)
 - Navigate to the project directory: cd angular-e-commerce
 - Install dependencies: npm install
 - Start the server: ng serve
