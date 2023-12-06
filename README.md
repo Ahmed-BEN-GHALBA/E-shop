@@ -4,18 +4,19 @@ This is a minimalist e-commerce website built using Angular 16. It serves as a s
 
 ## Features
 
-### User Authentication: Includes a login and registration system utilizing Angular's authentication functionalities.
-### Product Display: Allows users to view a list of products along with their details.
-### Dashboard: Provides a dashboard for user activity and order management.
+ User Authentication: Includes a login and registration system utilizing Angular's authentication functionalities.
+ Product Display: Allows users to view a list of products along with their details.
+ Shopping Cart: Allow order description and checkout  
+ Dashboard: Provides a dashboard for user activity and order management.
 
 ## The project follows a structured approach with the following main folders:
 
-### components: Houses modules for various parts of the website (login, register, dashboard, product).
-### services: Manages functionalities such as user authentication and product handling.
-### guards: Implements authentication guards to control access to specific routes.
-### models: Contains data structures or interfaces (user, product) used throughout the application.
-### pages: Organizes sub-folders for different pages or views within the application.
-### shared: A folder for shared components, services, directives, and models used across multiple parts of the application for enhanced reusability.
+ components: Houses modules for various parts of the website (login, register, dashboard, product).
+ services: Manages functionalities such as user authentication and product handling.
+ guards: Implements authentication guards to control access to specific routes.
+ models: Contains data structures or interfaces (user, product) used throughout the application.
+ pages: Organizes sub-folders for different pages or views within the application.
+ shared: A folder for shared components, services, directives, and models used across multiple parts of the application for enhanced reusability.
 
 ## Installation 
 
